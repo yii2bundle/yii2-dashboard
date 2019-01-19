@@ -11,7 +11,7 @@ class DefaultController extends Controller
 	
 	public function actionIndex()
 	{
-		prr(\App::$domain->file->person->all(),1,1);
+		//prr(\App::$domain->file->person->all(),1,1);
 		/*$sms = new SmsEntity;
 		$sms->address = '777712345678';
 		$sms->content = 'wertyu';
