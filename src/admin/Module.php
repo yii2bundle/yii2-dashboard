@@ -2,8 +2,8 @@
 
 namespace yii2module\dashboard\admin;
 use yii2lab\applicationTemplate\common\enums\ApplicationPermissionEnum;
-use yii2lab\domain\helpers\DomainHelper;
-use yii2lab\extension\web\helpers\Behavior;
+use yii2rails\domain\helpers\DomainHelper;
+use yii2rails\extension\web\helpers\Behavior;
 
 /**
  * Class Module

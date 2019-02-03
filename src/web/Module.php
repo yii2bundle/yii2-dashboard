@@ -2,7 +2,7 @@
 
 namespace yii2module\dashboard\web;
 
-use yii2lab\domain\helpers\DomainHelper;
+use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * Class Module

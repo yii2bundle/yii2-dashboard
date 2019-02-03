@@ -3,7 +3,7 @@
 namespace yii2module\dashboard\web\controllers;
 
 use yii\web\Controller;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 use yii2lab\notify\domain\entities\SmsEntity;
 
 class DefaultController extends Controller
