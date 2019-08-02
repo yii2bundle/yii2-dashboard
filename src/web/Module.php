@@ -1,19 +1,19 @@
 <?php
 
-namespace yii2module\dashboard\web;
+namespace yii2bundle\dashboard\web;
 
 use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * Class Module
  * 
- * @package yii2module\dashboard\web
+ * @package yii2bundle\dashboard\web
  */
 class Module extends \yii\base\Module {
 	
 	public function init() {
 		DomainHelper::forgeDomains([
-			'dashboard' => 'yii2module\dashboard\domain\Domain',
+			'dashboard' => 'yii2bundle\dashboard\domain\Domain',
 		]);
 		parent::init();
 	}

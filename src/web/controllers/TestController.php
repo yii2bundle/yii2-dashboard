@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\dashboard\web\controllers;
+namespace yii2bundle\dashboard\web\controllers;
 
 use yii\web\Controller;
 use yii2rails\domain\data\Query;

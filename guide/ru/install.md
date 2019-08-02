@@ -19,7 +19,7 @@ oExamlpe
 return [
 	'modules' => [
 		// ...
-		'dashboard' => 'yii2module\dashboard\console\Module',
+		'dashboard' => 'yii2bundle\dashboard\console\Module',
 		// ...
 	],
 ];
@@ -33,7 +33,7 @@ return [
 		// ...
 		'dashboard' => [
 			'class' => 'yii2rails\domain\Domain',
-			'path' => 'yii2module\dashboard\domain',
+			'path' => 'yii2bundle\dashboard\domain',
 			'repositories' => [
 				'default',
 			],

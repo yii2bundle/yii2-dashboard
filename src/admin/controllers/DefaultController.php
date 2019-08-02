@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\dashboard\admin\controllers;
+namespace yii2bundle\dashboard\admin\controllers;
 
 use Yii;
 use yii\web\Controller;

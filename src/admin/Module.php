@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\dashboard\admin;
+namespace yii2bundle\dashboard\admin;
 use yii2lab\applicationTemplate\common\enums\ApplicationPermissionEnum;
 use yii2rails\domain\helpers\DomainHelper;
 use yii2rails\extension\web\helpers\Behavior;
@@ -8,7 +8,7 @@ use yii2rails\extension\web\helpers\Behavior;
 /**
  * Class Module
  * 
- * @package yii2module\dashboard\admin
+ * @package yii2bundle\dashboard\admin
  */
 class Module extends \yii\base\Module {
 
@@ -23,7 +23,7 @@ class Module extends \yii\base\Module {
 	
 	public function init() {
 		DomainHelper::forgeDomains([
-			'dashboard' => 'yii2module\dashboard\domain\Domain',
+			'dashboard' => 'yii2bundle\dashboard\domain\Domain',
 		]);
 		parent::init();
 	}

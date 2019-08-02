@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\dashboard\domain;
+namespace yii2bundle\dashboard\domain;
 
 class Domain extends \yii2rails\domain\Domain {
 	
